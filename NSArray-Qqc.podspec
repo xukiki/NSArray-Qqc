@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "NSArray-Qqc"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "NSArray-Qqc"
   s.homepage     = "https://github.com/xukiki/NSArray-Qqc"
   s.source       = { :git => "https://github.com/xukiki/NSArray-Qqc.git", :tag => "#{s.version}" }
