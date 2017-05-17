@@ -7,7 +7,6 @@
 //
 
 #import "NSArray+Qqc.h"
-#import "NSMutableArray+Qqc.h"
 
 @implementation NSArray (Qqc)
 
@@ -175,7 +174,7 @@
     NSMutableArray *resultArray = [NSMutableArray arrayWithCapacity:self.count];
     
     [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [resultArray safeAddObject:block(obj, idx)];
+        [resultArray addObject:block(obj, idx)];
     }];
     
     return resultArray;
