@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xukiki/NSArray-Qqc.git", :tag => "#{s.version}" }
   
   s.source_files  = ["NSArray-Qqc/*.{h,m}"]
+  s.dependency  = "NSMutableArray-Qqc"
 
 end

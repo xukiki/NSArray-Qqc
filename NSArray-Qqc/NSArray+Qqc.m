@@ -7,6 +7,7 @@
 //
 
 #import "NSArray+Qqc.h"
+#import "NSMutableArray+Qqc.h"
 
 @implementation NSArray (Qqc)
 
