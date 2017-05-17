@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "NSArray-Qqc"
-  s.version      = "1.0.18"
+  s.version      = "1.0.20"
   s.summary      = "NSArray-Qqc"
   s.homepage     = "https://github.com/xukiki/NSArray-Qqc"
   s.source       = { :git => "https://github.com/xukiki/NSArray-Qqc.git", :tag => "#{s.version}" }
   
   s.source_files  = ["NSArray-Qqc/*.{h,m}"]
-  s.dependency  = "NSMutableArray-Qqc"
+  #s.dependency  = "NSMutableArray-Qqc"
 
 end
